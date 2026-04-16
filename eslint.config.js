@@ -7,7 +7,7 @@ import prettier from 'eslint-config-prettier'
 import globals from 'globals'
 import perfectionist from 'eslint-plugin-perfectionist'
 import jsxA11y from 'eslint-plugin-jsx-a11y'
-import { defineConfig } from 'eslint'
+import { defineConfig } from 'eslint/config'
 
 export default defineConfig(
   {
