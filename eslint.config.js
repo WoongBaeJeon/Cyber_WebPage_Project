@@ -14,7 +14,6 @@ export default defineConfig(
     ignores: [
       'dist',
       'node_modules',
-      '*.config.js',
       '*.config.ts',
       'public',
       'vitest.shims.d.ts',
@@ -171,5 +170,5 @@ export default defineConfig(
       ...jsxA11y.configs.recommended.rules,
     },
   },
-  prettier,
+  prettier
 )
