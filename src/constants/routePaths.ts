@@ -2,6 +2,7 @@ export const ROUTES_PATHS = {
   Home: '/',
   Wishlist: '/wishlist',
   Cart: '/cart',
+  CommonComponents: '/common-components',
   NotFound: '*',
   Services: {
     BonusProgram: '/services/bonus-program',
