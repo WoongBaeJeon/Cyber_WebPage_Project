@@ -1,6 +1,6 @@
-import { MainLayout } from '@components'
+import { MainLayout } from '@components/layout'
 import { ROUTES_PATHS } from '@constants'
-import { HomePage, NotFoundPage } from '@pages'
+import { CommonComponentsPage, HomePage, NotFoundPage } from '@pages'
 import { createBrowserRouter } from 'react-router-dom'
 
 export const router = createBrowserRouter([
@@ -11,6 +11,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
+      },
+      {
+        path: ROUTES_PATHS.CommonComponents,
+        element: <CommonComponentsPage />,
       },
       {
         path: ROUTES_PATHS.NotFound,

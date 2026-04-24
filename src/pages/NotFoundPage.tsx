@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export function NotFoundPage() {
   return (
-    <section className="rounded-shell border border-brand-line bg-brand-white p-8 shadow-card sm:p-10">
+    <section className="rounded-control border border-brand-line bg-brand-white p-8 shadow-card sm:p-10">
       <p className="text-4xl tracking-[0.32em] text-brand-subtle">404</p>
 
       <h1 className="mt-4 text-4xl font-semibold tracking-[-0.05em] text-brand-black sm:text-5xl">

@@ -15,7 +15,7 @@ export function SiteHeader() {
             cyber
           </Link>
 
-          <label className="order-3 flex w-full items-center gap-3 rounded-field border border-brand-line bg-brand-surface px-4 py-3 text-sm text-brand-subtle md:order-0 md:max-w-md">
+          <label className="order-3 flex w-full items-center gap-3 rounded-control border border-brand-line bg-brand-surface px-4 py-3 text-sm text-brand-subtle md:order-0 md:max-w-md">
             <Search className="size-4" strokeWidth={1.7} />
             <input
               className="w-full bg-transparent text-sm text-brand-black outline-none placeholder:text-brand-subtle"
