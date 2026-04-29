@@ -2,6 +2,7 @@ export const ROUTES_PATHS = {
   Home: '/',
   Wishlist: '/wishlist',
   Cart: '/cart',
+  Account: '/account',
   CommonComponents: '/common-components',
   NotFound: '*',
   Services: {

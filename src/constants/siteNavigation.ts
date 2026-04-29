@@ -30,6 +30,14 @@ export const UTILITY_PAGES: PageDefinition[] = [
     label: 'Cart',
     title: 'Your cart',
   },
+  {
+    description:
+      'Manage account preferences, saved details, and your shopping profile.',
+    eyebrow: 'Your profile',
+    href: ROUTES_PATHS.Account,
+    label: 'Account',
+    title: 'Your account',
+  },
 ]
 
 export const FOOTER_LINK_GROUPS: FooterLinkGroup[] = [
